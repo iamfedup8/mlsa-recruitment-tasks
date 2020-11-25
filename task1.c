@@ -6,13 +6,14 @@ int main(void)
     int x;
     int y;
     int z;
+    printf("INPUT: ");
     scanf("%d %d %d", &x, &y, &z);
-   check(x, y, z);
+    check(x, y, z);
 }
 void check(int a, int b, int c)
 {
     if (((b % a) + c) >= a)
-    printf("YES\n");
+    printf("OUTPUT: YES\n");
     else
-    printf("NO\n");
+    printf("OUTPUT: NO\n");
 }
